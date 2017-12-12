@@ -2,7 +2,6 @@
   width: 972px;
   background-color: #145274
 }
-
 .header {
   width: 970px;
   margin-bottom: 40px;
@@ -11,113 +10,91 @@
   margin: 20px 20px;
   vertical-align: bottom;
 }
-
-  #right-bar {
+#right-bar {
   width: 400px;
-  display: inline-block;
   vertical-align: bottom;
-  margin-left: 150px;
-  margin-top: 50px;
+  margin: 50px 0 0 150px;
+}
+#submitbuttom, .header p, .navigator-tab a,
+.main-content, .left-navigator a {
+  color: white;
+}
+.display-inline {
+  display: inline-block;
+  vertical-align: top;
+
+}
+.alignment {
   text-align: center;
 }
-
 .search-input {
   font-size: 15px;
   padding: 8px;
   border-style: groove;
-  text-align: center;
   color: lightgray;
 }
-
 #submitbuttom {
   font-size: 20px;
   background-color: #145274;
   border: 1px solid white;
-  color: white;
   border-radius: 3px;
-
 }
 .header a {
   color: #dcbd53;
   font-size: 18px;
 }
 .header p {
-  color: white;
   font-size: 18px;
   margin-bottom: 25px;
 }
-
 .search-bar {
   background-color: #444444;
   display: inline;
   padding: 28px 40px;
   border-radius: 10px;
-
 }
-
 .navigator-tab {
   width: 840px;
   background-color: #2d7ca9;
-  padding: 8px;
-  padding-bottom: 15px;
+  padding: 8px 8px 15px 8px;
   margin-left: 80px;
   border-radius: 5px;
-
 }
 .navigator-tab a {
-  color: white;
   text-decoration: none;
   padding: 30px;
   font-size: 20px;
 }
-
 .left-navigator {
   width: 180px;
-  margin-left: 80px;
-  margin-top: 13px;
-  display: inline-block;
+  margin: 13px 0 0 80px;
 }
-
 .left-navigator a {
-  color: white;
   display: inline-block;
   margin-left: 7px;
 }
-
 .left-navigator p {
   color: #dcbd53;
 
 }
-
 .main-content {
   width: 650px;
-  color: white;
-  /*margin-top: 20px;*/
   margin-left: 10px;
-  display: inline-block;
-  vertical-align: top;
-  text-align: center;
-  padding: 10px;
-  padding-right: 15px;
-  padding-top: 0;
+  padding: 0 15px 10px 10px;
   box-sizing: border-box;
 }
-
 .main-content p {
   margin: 0, 10px, 0, 10px;
 }
-
 .zen-message {
   color: #dcbd53;
   font-size: 25px;
   font-style: italic;
   margin:8px;
 }
-
 #first-tab {
   margin-left: 53px;
 }
-
 #third-tab {
   margin-left: 5px;
 }
@@ -138,52 +115,29 @@
   background-color: white;
   padding: 15px;
 }
-.left-bottom-info {
+.left-bottom-info, .right-bottom-info {
   width: 400px;
   border-top: 2px solid #68a9d2;
   background-color: white;
-  margin-left: 100px;
-  padding-left: 28px;
-  padding-right: 71px;
+  padding: 5px 71px 0 28px;
   box-sizing: border-box;
-  padding-top: 5px;
-  display: inline-block;
-  vertical-align: top;
 }
-
+.left-bottom-info {
+  margin-left: 100px;
+}
 h4 {
   font-size: 18px;
-  text-align: center;
   margin: 0;
 }
-
-.left-bottom-info p {
-  margin-top: 7px;
-  margin: 4px;
+.left-bottom-info p,  .right-bottom-info p{
+  margin: 7px 4px 4px 4px;
 }
-
-.right-bottom-info p {
-  margin-top: 7px;
-  margin: 4px;
-}
-
-.left-bottom-info li a {
+.left-bottom-info li a, .right-bottom-info li a{
     color: #84b9d9;
     margin-bottom: 5px;
 }
-.right-bottom-info li a {
-    color: #84b9d9;
-    margin-bottom: 5px;
-}
-.left-bottom-info li {
+.left-bottom-info li, .right-bottom-info li {
   display: block;
-  text-align: center;
-  margin-bottom: 5px;
-}
-
-.right-bottom-info li {
-  display: block;
-  text-align: center;
   margin-bottom: 5px;
 }
 .left-bottom-info ul {
@@ -191,20 +145,6 @@ h4 {
   margin: 4px;
   list-style: square inside;
 }
-
-.right-bottom-info {
-  width: 400px;
-  border-top: 2px solid #68a9d2;
-  background-color: white;
-  margin-left: 20px;
-  padding-left: 28px;
-  padding-right: 71px;
-  box-sizing: border-box;
-  padding-top: 5px;
-  display: inline-block;
-  vertical-align: top;
-}
-
 .footer {
   width: 970px;
   padding: 50px 100px 0px 100px;
@@ -217,7 +157,5 @@ font-size: 22px;
 margin-left: 50px;
 }
 .footer p {
-  text-align: center;
   color: #63a4cc;
-
 }
